@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
+
+main {
+  @media screen and (max-width: 765px) {
+    .sign_up_btn {
+      height: 30px !important;
+      width: 20px;
+      font-size: 14px !important;
+    }
+  }
+}
+.mobile-links {
+  padding: 10px !important;
+  cursor: default;
+  color: #495e57;
+}
+.mobile-links:hover {
+  background: rgba(73, 94, 87, 0.2) !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mobile-links-active {
+  background: rgba(73, 94, 87, 0.2) !important;
+  border-radius: 10px;
+}
+.markazi {
+  font-family: "Markazi Text", serif;
+}
+.table-reserve-btn {
+  background: #dfc338;
+  color: #495e57;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 600;
+}
+.online-menu-btn {
+  color: #dfc338;
+  background: #495e57;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 600;
+}
+.order-btn {
+  background: #dfc338;
+  color: #495e57;
+  font-size: 16px;
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.swiper-pagination-bullet {
+  background-color: #f4ce14 !important;
+}
+.swiper-scrollbar-drag {
+  background: #f4ce14 !important;
+}
+.swiper-scrollbar {
+  background: #f4cf142d !important;
+}
+.swiper-button-next {
+  color: #f4ce14 !important;
+}
+.swiper-button-prev {
+  color: #f4ce14 !important;
+}
+.swiper-button-disabled {
+  color: #f4cf147c !important;
+}
+.swiper-pagination {
+  margin: 5px 0 10px 0;
+}
+li {
+  list-style-type: none;
+}
+.custom-profile-dropdown:hover {
+  background: #495e57 !important;
+  color: #f4ce14;
+}
+.custom-shadow {
+  box-shadow: #af9d42 0px 0px 0px 2px, rgb(73, 94, 87) 0px 0px 0px 4px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.calander-style .p-inputtext {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+  font-weight: 700;
+  padding-left: 10px;
+  &::placeholder {
+    color: #495e57 !important;
+  }
+}
+.calander-field .p-focus .p-inputtext {
+  box-shadow: #dfc3384b 0px 0px 0px 3.2px !important;
+  // outline-color: #dfc338 !important;
+}
+.custom-time-style {
+  background: #dfc338 !important;
+  font-weight: 700;
+  .p-inputtext {
+    color: #495e57 !important;
+  }
+  .p-dropdown-trigger-icon {
+    color: #495e57;
+  }
+  .p-dropdown-clear-icon {
+    color: #495e57;
+  }
+}
+.guest-custom-css {
+  background: #dfc338;
+  font-weight: 700;
+  .p-inputtext {
+    color: #495e57 !important;
+  }
+  .p-dropdown-trigger-icon {
+    color: #495e57;
+  }
+  .p-dropdown-clear-icon {
+    color: #495e57;
+  }
+}
+.location-custom-css {
+  background: #dfc338;
+  font-weight: 700;
+  .p-inputtext {
+    color: #495e57 !important;
+  }
+  .p-dropdown-trigger-icon {
+    color: #495e57;
+  }
+  .p-dropdown-clear-icon {
+    color: #495e57;
+  }
+}
+.text-area-custom-css {
+  color: #495e57 !important;
+  padding: 10px;
+  background: #dfc338;
+  font-weight: 700;
+  &::placeholder {
+    color: #495e57 !important;
+  }
+  &:focus {
+    box-shadow: #dfc3384b 0px 0px 0px 3.2px;
+  }
+}
+.p-inputwrapper-focus:not(.calander-style) {
+  // box-shadow: 0 0 0.2rem rgba(34, 211, 238, 0.774) !important;
+  box-shadow: #dfc3384b 0px 0px 0px 3.2px;
+}
+.p-datepicker {
+  background: #cfb73f;
+  .p-datepicker-header {
+    background: #495e57;
+    border-radius: 8px;
+    .p-datepicker-prev {
+      color: #cfb73f;
+    }
+    .p-datepicker-title {
+      color: #cfb73f;
+      .p-datepicker-month {
+        margin-right: 5px;
+      }
+    }
+    .p-datepicker-next {
+      color: #cfb73f;
+    }
+  }
+  .p-datepicker-calendar-container {
+    thead {
+      color: #495e57;
+    }
+    tbody {
+      color: #495e57;
+      tr {
+        td {
+          // background: red !important;
+          span {
+            &:hover {
+              background: #495e57 !important;
+              color: #cfb73f;
+            }
+          }
+        }
+        .p-datepicker-today {
+          span {
+            color: #495e57;
+            font-weight: bolder;
+          }
+        }
+        .p-highlight {
+          color: #495e57 !important;
+          background-color: #495e5721;
+          &:hover {
+            color: #cfb73f !important;
+          }
+        }
+      }
+    }
+  }
+  .p-monthpicker {
+    color: #495e57;
+    .p-monthpicker-month {
+      &:hover {
+        background: #495e57;
+        color: #cfb73f;
+      }
+    }
+    .p-highlight {
+      background: #495e5754;
+      box-shadow: none !important;
+      color: #495e57;
+    }
+  }
+  .p-yearpicker {
+    color: #495e57;
+    .p-yearpicker-year {
+      &:hover {
+        background: #495e57;
+        color: #cfb73f;
+      }
+    }
+    .p-highlight {
+      background: #495e5754;
+      box-shadow: none !important;
+      color: #495e57;
+    }
+  }
+}
+.p-dropdown-items-wrapper {
+  background: #cfb73f;
+  .p-dropdown-item {
+    color: #495e57;
+    font-weight: 700;
+  }
+  .p-focus {
+    background: #495e57;
+    color: #cfb73f;
+  }
+  .p-highlight {
+    background: #495e5754;
+    color: #495e57;
+    &:hover {
+      background: #495e57;
+      color: #cfb73f;
+    }
+  }
+}
+.table-reserve-btn-form {
+  background: #cfb73f;
+  color: #495e57;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 600;
+}
+.p-toast-message {
+  background: #59776e77;
+  svg {
+    color: #cfb73f;
+  }
+  .p-toast-message-content {
+    color: #cfb73f;
+  }
+}
+.sign_up_box {
+  padding: 35px !important;
+  border: none;
+  @media screen and (max-width: 500px) {
+    width: 300px !important;
+  }
+}
+.login_box {
+  padding: 35px !important;
+  border: none;
+  @media screen and (max-width: 500px) {
+    width: 300px !important;
+  }
+}
+.form-input-label {
+  color: #dfc338 !important;
+  font-weight: 900 !important;
+}
+.form-email {
+  border-color: #dfc338 !important;
+  box-shadow: #dfc338 0px 0px 0px 1px !important;
+  color: #dfc338 !important;
+  font-weight: 900;
+}
+.form-error-message {
+  color: #dfc338 !important;
+  font-weight: 900;
+}
+.sign_up-btn-form {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+}
+.login-btn-form {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+}
+.sign_up_btn_form_google {
+  border-color: #dfc338 !important;
+  color: #dfc338 !important;
+  &:hover {
+    color: #495e57 !important;
+    background: #dfc338 !important;
+  }
+}
+.password-toggler {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+}
+::selection {
+  background: rgb(245, 173, 40);
+  color: #603ff7;
+}
+.p-dialog-header {
+  background: #dfc338 !important;
+  color: #495e57;
+}
+.p-dialog-content {
+  background: #dfc338 !important;
+  color: #495e57;
+}
+.p-dialog-footer {
+  background: #dfc338 !important;
+  color: #dfc338;
+  .p-confirm-dialog-reject {
+    margin-right: 25px;
+    background: #495e57;
+    padding: 8px 18px;
+  }
+  .p-confirm-dialog-accept {
+    background: #495e57;
+    padding: 8px 18px;
+  }
+}
+.footer-copyright {
+  color: #dfc338;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  border-top: #dfc338 2px solid;
+  padding-top: 2px;
+}

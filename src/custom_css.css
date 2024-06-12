@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
+@media screen and (max-width: 765px) {
+  main .sign_up_btn {
+    height: 30px !important;
+    width: 20px;
+    font-size: 14px !important;
+  }
+}
+
+.mobile-links {
+  padding: 10px !important;
+  cursor: default;
+  color: #495e57;
+}
+
+.mobile-links:hover {
+  background: rgba(73, 94, 87, 0.2) !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mobile-links-active {
+  background: rgba(73, 94, 87, 0.2) !important;
+  border-radius: 10px;
+}
+
+.markazi {
+  font-family: "Markazi Text", serif;
+}
+
+.table-reserve-btn {
+  background: #dfc338;
+  color: #495e57;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 600;
+}
+
+.online-menu-btn {
+  color: #dfc338;
+  background: #495e57;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 600;
+}
+
+.order-btn {
+  background: #dfc338;
+  color: #495e57;
+  font-size: 16px;
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #f4ce14 !important;
+}
+
+.swiper-scrollbar-drag {
+  background: #f4ce14 !important;
+}
+
+.swiper-scrollbar {
+  background: rgba(244, 207, 20, 0.1764705882) !important;
+}
+
+.swiper-button-next {
+  color: #f4ce14 !important;
+}
+
+.swiper-button-prev {
+  color: #f4ce14 !important;
+}
+
+.swiper-button-disabled {
+  color: rgba(244, 207, 20, 0.4862745098) !important;
+}
+
+.swiper-pagination {
+  margin: 5px 0 10px 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.custom-profile-dropdown:hover {
+  background: #495e57 !important;
+  color: #f4ce14;
+}
+
+.custom-shadow {
+  box-shadow: #af9d42 0px 0px 0px 2px, rgb(73, 94, 87) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.calander-style .p-inputtext {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.calander-style .p-inputtext::-moz-placeholder {
+  color: #495e57 !important;
+}
+.calander-style .p-inputtext::placeholder {
+  color: #495e57 !important;
+}
+
+.calander-field .p-focus .p-inputtext {
+  box-shadow: rgba(223, 195, 56, 0.2941176471) 0px 0px 0px 3.2px !important;
+}
+
+.custom-time-style {
+  background: #dfc338 !important;
+  font-weight: 700;
+}
+.custom-time-style .p-inputtext {
+  color: #495e57 !important;
+}
+.custom-time-style .p-dropdown-trigger-icon {
+  color: #495e57;
+}
+.custom-time-style .p-dropdown-clear-icon {
+  color: #495e57;
+}
+
+.guest-custom-css {
+  background: #dfc338;
+  font-weight: 700;
+}
+.guest-custom-css .p-inputtext {
+  color: #495e57 !important;
+}
+.guest-custom-css .p-dropdown-trigger-icon {
+  color: #495e57;
+}
+.guest-custom-css .p-dropdown-clear-icon {
+  color: #495e57;
+}
+
+.location-custom-css {
+  background: #dfc338;
+  font-weight: 700;
+}
+.location-custom-css .p-inputtext {
+  color: #495e57 !important;
+}
+.location-custom-css .p-dropdown-trigger-icon {
+  color: #495e57;
+}
+.location-custom-css .p-dropdown-clear-icon {
+  color: #495e57;
+}
+
+.text-area-custom-css {
+  color: #495e57 !important;
+  padding: 10px;
+  background: #dfc338;
+  font-weight: 700;
+}
+.text-area-custom-css::-moz-placeholder {
+  color: #495e57 !important;
+}
+.text-area-custom-css::placeholder {
+  color: #495e57 !important;
+}
+.text-area-custom-css:focus {
+  box-shadow: rgba(223, 195, 56, 0.2941176471) 0px 0px 0px 3.2px;
+}
+
+.p-inputwrapper-focus:not(.calander-style) {
+  box-shadow: rgba(223, 195, 56, 0.2941176471) 0px 0px 0px 3.2px;
+}
+
+.p-datepicker {
+  background: #cfb73f;
+}
+.p-datepicker .p-datepicker-header {
+  background: #495e57;
+  border-radius: 8px;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-prev {
+  color: #cfb73f;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-title {
+  color: #cfb73f;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month {
+  margin-right: 5px;
+}
+.p-datepicker .p-datepicker-header .p-datepicker-next {
+  color: #cfb73f;
+}
+.p-datepicker .p-datepicker-calendar-container thead {
+  color: #495e57;
+}
+.p-datepicker .p-datepicker-calendar-container tbody {
+  color: #495e57;
+}
+.p-datepicker .p-datepicker-calendar-container tbody tr td span:hover {
+  background: #495e57 !important;
+  color: #cfb73f;
+}
+.p-datepicker .p-datepicker-calendar-container tbody tr .p-datepicker-today span {
+  color: #495e57;
+  font-weight: bolder;
+}
+.p-datepicker .p-datepicker-calendar-container tbody tr .p-highlight {
+  color: #495e57 !important;
+  background-color: rgba(73, 94, 87, 0.1294117647);
+}
+.p-datepicker .p-datepicker-calendar-container tbody tr .p-highlight:hover {
+  color: #cfb73f !important;
+}
+.p-datepicker .p-monthpicker {
+  color: #495e57;
+}
+.p-datepicker .p-monthpicker .p-monthpicker-month:hover {
+  background: #495e57;
+  color: #cfb73f;
+}
+.p-datepicker .p-monthpicker .p-highlight {
+  background: rgba(73, 94, 87, 0.3294117647);
+  box-shadow: none !important;
+  color: #495e57;
+}
+.p-datepicker .p-yearpicker {
+  color: #495e57;
+}
+.p-datepicker .p-yearpicker .p-yearpicker-year:hover {
+  background: #495e57;
+  color: #cfb73f;
+}
+.p-datepicker .p-yearpicker .p-highlight {
+  background: rgba(73, 94, 87, 0.3294117647);
+  box-shadow: none !important;
+  color: #495e57;
+}
+
+.p-dropdown-items-wrapper {
+  background: #cfb73f;
+}
+.p-dropdown-items-wrapper .p-dropdown-item {
+  color: #495e57;
+  font-weight: 700;
+}
+.p-dropdown-items-wrapper .p-focus {
+  background: #495e57;
+  color: #cfb73f;
+}
+.p-dropdown-items-wrapper .p-highlight {
+  background: rgba(73, 94, 87, 0.3294117647);
+  color: #495e57;
+}
+.p-dropdown-items-wrapper .p-highlight:hover {
+  background: #495e57;
+  color: #cfb73f;
+}
+
+.table-reserve-btn-form {
+  background: #cfb73f;
+  color: #495e57;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 600;
+}
+
+.p-toast-message {
+  background: rgba(89, 119, 110, 0.4666666667);
+}
+.p-toast-message svg {
+  color: #cfb73f;
+}
+.p-toast-message .p-toast-message-content {
+  color: #cfb73f;
+}
+
+.sign_up_box {
+  padding: 35px !important;
+  border: none;
+}
+@media screen and (max-width: 500px) {
+  .sign_up_box {
+    width: 300px !important;
+  }
+}
+
+.login_box {
+  padding: 35px !important;
+  border: none;
+}
+@media screen and (max-width: 500px) {
+  .login_box {
+    width: 300px !important;
+  }
+}
+
+.form-input-label {
+  color: #dfc338 !important;
+  font-weight: 900 !important;
+}
+
+.form-email {
+  border-color: #dfc338 !important;
+  box-shadow: #dfc338 0px 0px 0px 1px !important;
+  color: #dfc338 !important;
+  font-weight: 900;
+}
+
+.form-error-message {
+  color: #dfc338 !important;
+  font-weight: 900;
+}
+
+.sign_up-btn-form {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+}
+
+.login-btn-form {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+}
+
+.sign_up_btn_form_google {
+  border-color: #dfc338 !important;
+  color: #dfc338 !important;
+}
+.sign_up_btn_form_google:hover {
+  color: #495e57 !important;
+  background: #dfc338 !important;
+}
+
+.password-toggler {
+  background: #dfc338 !important;
+  color: #495e57 !important;
+}
+
+::-moz-selection {
+  background: rgb(245, 173, 40);
+  color: #603ff7;
+}
+
+::selection {
+  background: rgb(245, 173, 40);
+  color: #603ff7;
+}
+
+.p-dialog-header {
+  background: #dfc338 !important;
+  color: #495e57;
+}
+
+.p-dialog-content {
+  background: #dfc338 !important;
+  color: #495e57;
+}
+
+.p-dialog-footer {
+  background: #dfc338 !important;
+  color: #dfc338;
+}
+.p-dialog-footer .p-confirm-dialog-reject {
+  margin-right: 25px;
+  background: #495e57;
+  padding: 8px 18px;
+}
+.p-dialog-footer .p-confirm-dialog-accept {
+  background: #495e57;
+  padding: 8px 18px;
+}
+
+.footer-copyright {
+  color: #dfc338;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  border-top: #dfc338 2px solid;
+  padding-top: 2px;
+}/*# sourceMappingURL=custom_css.css.map */
