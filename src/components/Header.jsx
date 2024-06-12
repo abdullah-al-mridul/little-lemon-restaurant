@@ -31,23 +31,23 @@ export default function Header() {
   const menuItems = [
     {
       navText: "Home",
-      path: "/",
+      path: "/little-lemon-restaurant/",
     },
     {
       navText: "About",
-      path: "/about",
+      path: "/little-lemon-restaurant/about",
     },
     {
       navText: "Menu",
-      path: "/menu",
+      path: "/little-lemon-restaurant/menu",
     },
     {
       navText: "Reservations",
-      path: "/reservation",
+      path: "/little-lemon-restaurant/reservation",
     },
     {
       navText: "Order Online",
-      path: "/order_online",
+      path: "/little-lemon-restaurant/order_online",
     },
   ];
   const [active, dispatchActive] = useReducer(
@@ -85,15 +85,15 @@ export default function Header() {
   const location = useLocation();
   useEffect(() => {
     let idx;
-    if (location.pathname === "/") {
+    if (location.pathname === "/little-lemon-restaurant/") {
       idx = 0;
-    } else if (location.pathname === "/about") {
+    } else if (location.pathname === "/little-lemon-restaurant/about") {
       idx = 1;
-    } else if (location.pathname === "/menu") {
+    } else if (location.pathname === "/little-lemon-restaurant/menu") {
       idx = 2;
-    } else if (location.pathname === "/reservation") {
+    } else if (location.pathname === "/little-lemon-restaurant/reservation") {
       idx = 3;
-    } else if (location.pathname === "/order_online") {
+    } else if (location.pathname === "/little-lemon-restaurant/order_online") {
       idx = 4;
     } else {
       idx = 999;
@@ -171,7 +171,7 @@ export default function Header() {
           className="hidden transition-all sm:flex gap-2 lg:gap-6"
           justify="center"
         >
-          <LinkProvider to={"/"}>
+          <LinkProvider to={"/little-lemon-restaurant/"}>
             <NavbarItem
               className={
                 active.activeIndex === 0
@@ -186,13 +186,13 @@ export default function Header() {
                     : "text-[18px] text-[#33413c] max-[765px]:text-[14px] font-semibold tracking-wide cursor-default "
                 }
                 color="foreground"
-                to={"/"}
+                to={"/little-lemon-restaurant/"}
               >
                 Home
               </Link>
             </NavbarItem>
           </LinkProvider>
-          <LinkProvider to={"/about"}>
+          <LinkProvider to={"/little-lemon-restaurant/about"}>
             <NavbarItem
               className={
                 active.activeIndex === 1
@@ -207,13 +207,13 @@ export default function Header() {
                     : "text-[18px]  text-[#33413c] max-[765px]:text-[14px] font-semibold tracking-wide  cursor-default"
                 }
                 color="foreground"
-                to={"/about"}
+                to={"/little-lemon-restaurant/about"}
               >
                 About
               </Link>
             </NavbarItem>
           </LinkProvider>
-          <Link to={"/menu"}>
+          <Link to={"/little-lemon-restaurant/menu"}>
             <NavbarItem
               className={
                 active.activeIndex === 2
@@ -228,13 +228,13 @@ export default function Header() {
                     : "text-[18px]  text-[#33413c] font-semibold tracking-wide   max-[765px]:text-[14px] cursor-default"
                 }
                 color="foreground"
-                to={"/menu"}
+                to={"/little-lemon-restaurant/menu"}
               >
                 Menu
               </Link>
             </NavbarItem>
           </Link>
-          <Link to={"/reservation"}>
+          <Link to={"/little-lemon-restaurant/reservation"}>
             <NavbarItem
               className={
                 active.activeIndex === 3
@@ -249,13 +249,13 @@ export default function Header() {
                     : "text-[18px] text-[#33413c] font-semibold tracking-wide  cursor-default  max-[765px]:text-[14px]"
                 }
                 color="foreground"
-                to={"/reservation"}
+                to={"/little-lemon-restaurant/reservation"}
               >
                 Reservations
               </Link>
             </NavbarItem>
           </Link>
-          <Link to={"/order_online"}>
+          <Link to={"/little-lemon-restaurant/order_online"}>
             <NavbarItem
               className={
                 active.activeIndex === 4
@@ -270,7 +270,7 @@ export default function Header() {
                     : "text-[18px] text-[#33413c] font-semibold tracking-wide cursor-default  max-[765px]:text-[14px]"
                 }
                 color="foreground"
-                to={"/order_online"}
+                to={"/little-lemon-restaurant/order_online"}
               >
                 Order Online
               </Link>
@@ -383,7 +383,7 @@ export default function Header() {
             </>
           ) : (
             <>
-              <Link to={"/login"}>
+              <Link to={"/little-lemon-restaurant/login"}>
                 <NavbarItem
                   className={
                     "bg-[#495E57] py-2 px-4 rounded-lg transition-colors max-[765px]:py-1 max-[765px]:px-2"
@@ -394,13 +394,13 @@ export default function Header() {
                       "text-[18px] text-[#f4ce14] font-semibold tracking-wide  max-[765px]:text-[14px]"
                     }
                     color="foreground"
-                    to={"/login"}
+                    to={"/little-lemon-restaurant/login"}
                   >
                     Login
                   </Link>
                 </NavbarItem>
               </Link>
-              <Link to={"/sign_up"}>
+              <Link to={"/little-lemon-restaurant/sign_up"}>
                 <NavbarItem
                   className={
                     "bg-[#495E57] py-2 px-4 rounded-lg transition-colors max-[765px]:py-1 max-[765px]:px-2"
@@ -411,7 +411,7 @@ export default function Header() {
                       "text-[18px] text-[#f4ce14] font-semibold tracking-wide  max-[765px]:text-[14px]"
                     }
                     color="foreground"
-                    to={"/sign_up"}
+                    to={"/little-lemon-restaurant/sign_up"}
                   >
                     Sign Up
                   </Link>

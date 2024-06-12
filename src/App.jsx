@@ -33,14 +33,39 @@ export default function App() {
           <main className="bg-[#495E57]">
             <Header />
             <Routes>
-              <Route index path="/" element={<Home />}></Route>
-              <Route path="about" element={<AboutHeight />}></Route>
-              <Route path="/login" element={<Login />}></Route>
-              <Route path="/sign_up" element={<SignUp />}></Route>
-              <Route path="*" element={<NoPage />}></Route>
-              <Route path="/menu" element={<Menu />}></Route>
-              <Route path="/reservation" element={<Reservation />}></Route>
-              <Route path="/order_online" element={<OrderOnline />}></Route>
+              <Route
+                index
+                path="/little-lemon-restaurant/"
+                element={<Home />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/about"
+                element={<AboutHeight />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/login"
+                element={<Login />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/sign_up"
+                element={<SignUp />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/*"
+                element={<NoPage />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/menu"
+                element={<Menu />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/reservation"
+                element={<Reservation />}
+              ></Route>
+              <Route
+                path="/little-lemon-restaurant/order_online"
+                element={<OrderOnline />}
+              ></Route>
             </Routes>
             <Footer />
           </main>

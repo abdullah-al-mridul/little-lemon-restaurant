@@ -54,7 +54,7 @@ export default function NoPage() {
                 <span>Go back</span>
               </Link>
               <Link
-                to={"/"}
+                to={"/little-lemon-restaurant/"}
                 className="w-1/2 px-5 py-2 text-sm text-[#DFC338] tracking-wide  transition-colors duration-200 bg-[#495E57] rounded-md shrink-0 sm:w-auto"
               >
                 Take me home
