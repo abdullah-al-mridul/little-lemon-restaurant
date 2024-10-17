@@ -35,35 +35,35 @@ export default function App() {
             <Routes>
               <Route
                 index
-                path="/little-lemon-restaurant/"
+                path="/"
                 element={<Home />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/about"
+                path="/about"
                 element={<AboutHeight />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/login"
+                path="/login"
                 element={<Login />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/sign_up"
+                path="/sign_up"
                 element={<SignUp />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/*"
+                path="/*"
                 element={<NoPage />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/menu"
+                path="/menu"
                 element={<Menu />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/reservation"
+                path="/reservation"
                 element={<Reservation />}
               ></Route>
               <Route
-                path="/little-lemon-restaurant/order_online"
+                path="/order_online"
                 element={<OrderOnline />}
               ></Route>
             </Routes>
