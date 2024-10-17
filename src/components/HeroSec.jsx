@@ -23,7 +23,7 @@ export default function HeroSec() {
             onPress={() => {
               setIsReserving((prev) => !prev);
               setTimeout(() => {
-                navigation("/little-lemon-restaurant/reservation");
+                navigation("/reservation");
                 setIsReserving((prev) => !prev);
               }, 2000);
             }}
